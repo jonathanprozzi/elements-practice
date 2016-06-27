@@ -4,22 +4,62 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width">
         <title>practice modifying elements with js!</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <!-- bootstrap for the main page style -->
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <header>
-            <!-- introduce activity and provide basic overview -->
+            <div class="container-fluid" >
+                    <div class="jumbotron" id="top-jumbo">
+                    <!-- introduce activity and provide basic overview -->
+                    <h2 id="h2-top">activity overview</h2>
+                    <!-- <p id="intro-para"> -->
+                    <ul class="list-unstyled">
+                    <li>this activity will present you with a series of elements that you need to either modify, remove, or add using <span id="js-yay">javascript</span>.</li>
+                    <li>this is meant to be a 'live' practice situation.</li>
+                    <li>if you're feeling especially adventurous, go ahead and turn this into some sort of interesting page ;]</li>
+                    </ul>
+                    <hr id="hr-header"/> <!-- horizontal rule for header split -->
+                </div> <!-- end "jumbotron" -->
+            </div> <!-- end "container-fluid" -->
         </header>
-            <div class="main-container">
-                <section class="main-activity">
+        <main id="main-activity">
+            <div class="container-fluid">
+                <div class="jumbotron" id="mid-jumbo">
+                    <h2 class="h2-instruct">some instructions:</h2>
+                        <ul class="list-unstyled">
+                            <li>each section will present a series of challenges.</li>
+                            <li>make sure that you aren't <span id="cheating">cheating(!!)</span> and modifying the index.html file!
+                            <li>you'll use your new javascript-fu to complete these training exercises.</li>
+                        </ul>
+                    <hr id="hr-mid"/>
+                </div> <!-- end "mid-jumbo" -->
+            <div class="jumbotron" id="act-jumbo">
+                <h2 id="h2-main">onto the elements!</h2>
+                    <h3>modify these elements:</h3>
+
+                    [one] <div id="change-one">change this div's text</div>
+                    [two] <div id="change-two">completely remove this div!</div>
+                    [three] <div id="add-text">add some text to this div!</div>
+
+                    <h3>be strong and modify these paragraphs:</h3>
+                    <p id="p-change-one">make sure to select me with your new js element selection skills and make this say something totally awesome (that isn't this sentence)</p>
+                    <p id="p-change-two">[this paragraph shouldn't be here, it snuck in when adam / mary were writing awesome code : remove it with the power of js!]</p>
 
 
-
-                </section>
-            </div>
+                <hr id="hr-act"/>
+                </div> <!-- end "act-jumbo" div -->
+            </div> <!-- end "container-fluid" div -->
+        </main> <!-- end "main-activity" main -->
         <footer>
+            <div class="container-fluid" >
+                <div class="jumbotron" id="foot-jumbo">
+
             <!-- activity confirmation/reminder of step completion -->
             <!-- name / info about course / activity -->
+                </div> <!-- end "foot-jumbo" div -->
+            </div> <!-- end "container-fluid" div  -->
         </footer>
         <script src="elemprac.js"></script>
     </body>
