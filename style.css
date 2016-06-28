@@ -1,17 +1,41 @@
+/*
+don't worry so much about this for now! unless you want to be adventurous!
+    this is just the styling for the content. it uses a css framework called 'bootstrap'
+    and some fun solarized colors.
+*/
+
 @media (min-width: 600px) {
     .container{
         max-width: 600px;
+        width:100%;
     }
+}
+
+.container-fluid {
+    width: 100%;
 }
 
 body {
     background-color:  #2aa198;
 }
 
+p, li, div {
+    color: #073642;
+}
+
 .jumbotron {
     background-color: #93a1a1;
-    margin-left: 5em;
-    margin-right: 5em;
-    width: 80%;
+    border-style: solid;
+    border-color: #073642;
+    position: relative;
+    margin-top: 3rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+    width: 75%;
     justify-content: center;
+}
+
+#h2-top, #h2-foot{
+    color: #d33682;
 }
