@@ -36,6 +36,14 @@ p, li, div {
     justify-content: center;
 }
 
+#h2-main {
+    color: #6c71c4;
+}
+
 #h2-top, #h2-foot{
     color: #d33682;
+}
+
+#love-js {
+    color: #eee8d5;
 }
